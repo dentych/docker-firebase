@@ -5,4 +5,4 @@ Image for firebase inside Docker.
 `docker build -t dentych/firebase .`
 
 ## How to use
-`docker run -it -v $(pwd):/data -p 9005:9005 dentych/firebase`
+`docker run -it --rm -v $(pwd):/data -p 5000:5000 -p 9005:9005 dentych/firebase`
