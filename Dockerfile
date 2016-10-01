@@ -6,4 +6,6 @@ VOLUME ["/data"]
 
 EXPOSE 9005
 
+WORKDIR /data
+
 CMD bash
