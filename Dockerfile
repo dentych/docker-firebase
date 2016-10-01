@@ -8,4 +8,4 @@ EXPOSE 9005
 
 WORKDIR /data
 
-CMD bash
+CMD sh
