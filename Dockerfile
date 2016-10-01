@@ -1,4 +1,4 @@
-FROM node
+FROM dentych/node
 
 RUN npm install -g firebase-tools
 
